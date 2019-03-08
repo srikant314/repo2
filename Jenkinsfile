@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('myStage'){
       steps {
-        bat dir 
+        echo "Hello Jenkinsians" 
       }
     }
     stage('Build') {
       steps { 
-        bat dir 
+        echo "Hello Jenkinsians"  
       }
     }
   }
